@@ -67,7 +67,7 @@ const getStoreData = async (page, mainUrl) => {
 };
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: "new",
     ignoreDefaultArgs: [
       "--enable-automation",
       "--disable-extensions",
